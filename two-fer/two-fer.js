@@ -5,7 +5,7 @@
 
 export const twoFer = (name) => {
   
-  if(name == null){
+  if(!name){
     return 'One for you, one for me.'
   }
     
